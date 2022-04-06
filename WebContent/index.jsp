@@ -10,4 +10,4 @@
 	<script>
 		location.href = 'list.jsp';
 	</script>
-<%@ include file="/inc/inc_close.jsp" %>
+<%@ include file="/inc/inc_close.jsp" %> 
