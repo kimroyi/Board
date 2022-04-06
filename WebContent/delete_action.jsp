@@ -27,7 +27,7 @@
 		
 		BoardDAO boardDAO = new BoardDAO();
 		int result = boardDAO.delete(idx);
-		if (result == -1) {
+		if (result == -1) { 
 			PrintWriter script = response.getWriter();
 			script.println("alert('글 삭제 실패!')");
 			script.println("history.back()");
